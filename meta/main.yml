@@ -1,0 +1,20 @@
+---
+galaxy_info:
+  author: Michaël Rigart
+  description: An ansible role for creating the default project structure when using Capistrano as your application deployment tool.
+               This role will create a new system user / group for your deployment as well as set the default application structure for
+               Capistrano and put a placeholder page in an initial release.
+  company: Netronix.be
+  license: GPLv3
+  min_ansible_version: 1.8
+  platforms:
+    - name: Ubuntu
+      versions:
+        - all
+    - name: Debian
+      versions:
+        - all
+  categories:
+    - development
+dependencies: []
+

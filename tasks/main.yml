@@ -1,0 +1,10 @@
+---
+
+- include: users.yml
+  tags: users
+
+- include: structure.yml
+  tags: structure.yml
+
+- include: delete.yml
+  tags: delete.yml
